@@ -114,5 +114,5 @@ if ((isset($_FILES["sourcefile"]) && $_FILES["sourcefile"]["name"]!="") || (isse
 		$retv = DBNewRun ($param);
 	
 }
-header('Location: http://192.168.1.13/elgg/tap_run');
+header('Location: http://localhost/elgg/tap_run');
 ?>

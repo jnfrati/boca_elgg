@@ -28,7 +28,7 @@ include('/var/www/html/run/config/DataBase.php');
 			<body>
 
 			<style>div{align-content: center;}</style>
-			<form action='http://192.168.1.13/run/runSave.php' method='post' enctype='multipart/form-data'>
+			<form action='http://192.168.0.102/run/runSave.php' method='post' enctype='multipart/form-data'>
 				<div align='center'>
 					<b>Ejercicio ".$ejer['nombre'].
 					"</b><br><br>"
@@ -66,7 +66,7 @@ include('/var/www/html/run/config/DataBase.php');
 			<br/>
 			<br/>
 			<div align='center'>
-			<form action='http://192.168.1.13/run/template.php' method='post' >
+			<form action='http://localhost/run/template.php' method='post' >
 				Descargar plantilla
 					<select name='language' class='elgg-button elgg-button-special elgg-button-dropdown'>
 						<option value='C'>C</option>
